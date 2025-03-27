@@ -1,6 +1,6 @@
+import CardsC from "./components/cards/CardsC";
 import CaruselC from "./components/carusel/CaruselC";
 import NatvarC from "./components/natvar/NatvarC";
-import CardsC from "./components/cards/CardsC";
 
 const App = () => {
   return (
