@@ -1,5 +1,4 @@
-import NatvarC from "./components/natvar/NatvarC";
-import Natvar from "./components/natvar/NatvarC";
+import NatvarC from "./componentes/navbar/NavbarC";
 
 const App = () => {
   return (
