@@ -1,10 +1,15 @@
+import CardsC from "./components/cards/CardsC";
+import CaruselC from "./components/carusel/CaruselC";
+import NatvarC from "./components/natvar/NatvarC";
+
 const App = () => {
   return (
     <>
-      <h1>Hola</h1>
+      <NatvarC />
+      <CaruselC />
+      <CardsC />
     </>
   );
-}
+};
 
-
-export default App
+export default App;
