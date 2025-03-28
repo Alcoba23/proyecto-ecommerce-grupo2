@@ -43,8 +43,8 @@ const NatvarC = () => {
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Action
+                    <a class="dropdown-item" href="./paginas/IniciarSesion">
+                      Iniciar sesion
                     </a>
                   </li>
                   <li>
