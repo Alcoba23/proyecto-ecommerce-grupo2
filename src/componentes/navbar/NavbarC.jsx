@@ -13,7 +13,7 @@ const NatvarC = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home">Sobre nosotros</Nav.Link>
-              <Nav.Link href="#link">Iniciar sesion</Nav.Link>
+              <Nav.Link href="/IniciarSesion">Iniciar sesion</Nav.Link>
 
               <NavDropdown title="Categoria" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
