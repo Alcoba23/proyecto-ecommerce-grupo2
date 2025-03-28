@@ -1,18 +1,28 @@
-import { BrowserRouter as Router } from "react-router";
 import NavbarC from "./componentes/navbar/NavbarC";
-/* import IniciarSesion from "./paginas/IniciarSesion" */
 import CardsC from "./componentes/cards/CardsC";
 import FooterC from "./componentes/footer/FooterC";
-import { col, Container, Row } from "react-bootstrap";
+import CaruselC from "./componentes/carusel/CaruselC";
+import { Col, Container, Row } from "react-bootstrap";
 const App = () => {
   return (
     <>
-      <Router>
-        <NavbarC />
-      </Router>
+      <NavbarC />
+      <CaruselC />
       <Container>
         <Row>
-          <Col>
+          <Col sm="8" md="6" lg="4">
+            <CardsC />
+          </Col>
+
+          <Col sm="8" md="6" lg="4">
+            <CardsC />
+          </Col>
+
+          <Col sm="8" md="6" lg="4">
+            <CardsC />
+          </Col>
+
+          <Col sm="8" md="6" lg="4">
             <CardsC />
           </Col>
         </Row>
