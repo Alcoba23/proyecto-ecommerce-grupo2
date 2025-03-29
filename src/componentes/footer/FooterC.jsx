@@ -1,7 +1,7 @@
 const FooterC = () => {
   return (
-    <footer className="texte-center">
-      <h3>Foter</h3>
+    <footer className="bg-body-tertiarya p-5 text-center">
+      <h3>Footer</h3>
     </footer>
   );
 };

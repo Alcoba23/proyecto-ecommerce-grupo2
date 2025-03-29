@@ -10,32 +10,33 @@ import Col from "react-bootstrap/Col";
 const NavbarC = () => {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar expand="lg" className="bg-body-tertiary py-5">
+        <Container fluid>
+          <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+          <Form inline>
+            <Row>
+              <Col xs="auto">
+                <Form.Control
+                  type="text"
+                  placeholder="Buscador"
+                  className=" mr-sm-2"
+                />
+              </Col>
+              <Col xs="auto">
+                <Button type="submit">Buscar</Button>
+              </Col>
+            </Row>
+          </Form>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Form inline>
-              <Row>
-                <Col xs="auto">
-                  <Form.Control
-                    type="text"
-                    placeholder="Buscador"
-                    className=" mr-sm-2"
-                  />
-                </Col>
-                <Col xs="auto">
-                  <Button type="submit">Buscar</Button>
-                </Col>
-              </Row>
-            </Form>
-            <Nav className="me-auto">
+            <Nav className="ms-auto">
               <Nav.Link href="#home">Sobre nosotros</Nav.Link>
-              <Nav.Link href="#link">Iniciar sesion</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
+              <Nav.Link href="i">Iniciar sesion</Nav.Link>
+
+              <NavDropdown title="Categoria" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  Categorias
+                  Another action
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
                   Something

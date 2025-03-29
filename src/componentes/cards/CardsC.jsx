@@ -12,7 +12,9 @@ const CardsC = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <div className="text-center">
+            <Button variant="primary">Ver mas</Button>
+          </div>
         </Card.Body>
       </Card>
     </>
