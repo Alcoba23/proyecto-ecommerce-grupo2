@@ -1,11 +1,11 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
-const CardsC = () => {
+import { Link } from "react-router";
+const CardsC = ({ urlimage }) => {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+      <Card style={{ width: "12rem" }}>
+        <Card.Img variant="top" src={urlimage} />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
@@ -13,7 +13,9 @@ const CardsC = () => {
             bulk of the card's content.
           </Card.Text>
           <div className="text-center">
-            <Button variant="primary">Ver mas</Button>
+            <Link to="" className="btn btn-primary">
+              ver mas
+            </Link>
           </div>
         </Card.Body>
       </Card>
