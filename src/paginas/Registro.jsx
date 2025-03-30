@@ -3,7 +3,7 @@ import FormC from "../componentes/form/FormC"
 const Registro = () => {
   return (
     <>
-    <FormC/>
+    <FormC idPage='registro'/>
 
     </>
   )

@@ -3,7 +3,7 @@ import FormC from "../componentes/form/FormC";
 const IniciarSesion = () => {
   return (
     <>
-      <FormC />
+      <FormC idPage='iniciar-sesion'/>
     </>
   );
 }

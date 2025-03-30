@@ -7,7 +7,6 @@ import { Col, Container, Row } from "react-bootstrap";
 function Homepage() {
   return (
     <>
-      <NavbarC />
       <CaruselC />
       <Container className="my-5 text-center">
         <Row>
