@@ -11,11 +11,7 @@ import Registro from "./paginas/Registro";
 const App = () => {
   return (
     <Router>
- feature-pagina-principal2
       <NavbarC />
-
-      <NavbarC/>
- dev
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="i" element={<IniciarSesion />} />
