@@ -4,7 +4,7 @@ import IniciarSesion from "./paginas/IniciarSesion";
 import NavbarC from "./componentes/navbar/NavbarC";
  feature-pagina-principal2
 import FooterC from "./componentes/footer/FooterC";
-=======
+
 import Registro from "./paginas/Registro";
  dev
 
@@ -13,7 +13,7 @@ const App = () => {
     <Router>
  feature-pagina-principal2
       <NavbarC />
-=======
+
       <NavbarC/>
  dev
       <Routes>
