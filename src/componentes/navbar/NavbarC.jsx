@@ -33,14 +33,14 @@ const NavbarC = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-    feature-pagina-principal2
+   
               <NavLink className="nav-link" to="#home">
                 Sobre nosotros
               </NavLink>
               <NavLink className="nav-link" to="i">
                 Iniciar sesion
               </NavLink>
-=======
+
               <Nav.Link href="#home">Sobre nosotros</Nav.Link>
               <Nav.Link href="i">Iniciar sesion</Nav.Link>
               
