@@ -4,7 +4,6 @@ import IniciarSesion from "./paginas/IniciarSesion";
 import NavbarC from "./componentes/navbar/NavbarC";
 import FooterC from "./componentes/footer/FooterC";
 import Registro from "./paginas/Registro";
- 
 
 const App = () => {
   return (

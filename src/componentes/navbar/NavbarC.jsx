@@ -33,10 +33,13 @@ const NavbarC = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-   
-              <Nav.Link href="#home">Sobre nosotros</Nav.Link>
-              <Nav.Link href="i">Iniciar sesion</Nav.Link>
-              
+              <NavLink className="nav-link" to="">
+                Sobre nosotros
+              </NavLink>
+              <NavLink className="nav-link" to="i">
+                Iniciar sesion
+              </NavLink>
+
               <NavDropdown title="Categoria" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -55,4 +58,3 @@ const NavbarC = () => {
 };
 
 export default NavbarC;
-
