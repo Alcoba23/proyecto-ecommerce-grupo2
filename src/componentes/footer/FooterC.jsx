@@ -23,21 +23,21 @@ const FooterC = () => {
               <NavLink
                 className="nav-link"
                 to="/nosotros"
-                className1="text-white d-block"
+                className="text-white d-block"
               >
                 Nosotros
               </NavLink>
               <NavLink
                 className="nav-link"
                 to="/servicios"
-                className1="text-white d-block"
+                className="text-white d-block"
               >
                 Servicios
               </NavLink>
               <NavLink
                 className="nav-link"
                 to="/contacto"
-                className1="text-white d-block"
+                className="text-white d-block"
               >
                 Contacto
               </NavLink>
@@ -49,21 +49,21 @@ const FooterC = () => {
               <NavLink
                 className="nav-link"
                 to="https://facebook.com"
-                className1="text-white mx-2"
+                className="text-white mx-2"
               >
                 Facebook
               </NavLink>
               <NavLink
                 className="nav-link"
                 to="https://twitter.com"
-                className1="text-white mx-2"
+                className="text-white mx-2"
               >
                 Twitter
               </NavLink>
               <NavLink
                 className="nav-link"
                 to="https://instagram.com"
-                className1="text-white mx-2"
+                className="text-white mx-2"
               >
                 Instagram
               </NavLink>
